@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BF78F8D2-EE94-5B1A-6FF5-F20F819533A7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\autoDestroy.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\bulletHoleProperty.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\externalCamera.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\fadeParticles.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\flyingSpark.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\game.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\health.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\laserSight\laserDust.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\laserSight\laserLine.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\laserSight\laserPoint.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\laserSight\laserSight.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\particleAutoDestroy.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\platform.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\shadow.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\spark.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\triggerChildrenCollider.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\bulletCase.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\bulletCaseGenerator.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\bulletHole.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\bulletHoleHeat.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\bulletTrace.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\bulletTraceGenerator.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\dustCloud.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\dustCloudGenerator.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\gun.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\gunSelector.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\muzzleFlash.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\guns\muzzleFlashGenerator.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\ik\ikArmController.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\ik\inverseKinematics.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\sentryGun\sentryGun.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\sentryGun\spinningTurret.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\crosshair.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\crouchController.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\skeletonToCharacter.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\smoothWorldPosition.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\soldierAim.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\soldierAnimation.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\soldierCamera.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\soldierLOD.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\soldierMovement.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\soldier\weaponController.js" />
+     <None Include="Assets\Characters\Cartoon Soldier\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
